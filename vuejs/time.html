@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>時間</title>
+</head>
+<body>
+    <article>
+        <h1>現在時刻表示</h1>
+        <div id="app">
+            <p>現在の時刻は {{ now }}<p>
+            <button v-on:click="time">現在時刻を表示する</button>
+            <p>※ボタンを押すと現在時刻が表示されます。</p>
+        </div>
+    </article>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="js/time.js"></script>
+
+</body>
+</html>
